@@ -1,0 +1,6 @@
+list1 = list(map(int, input("Enter first list of integers (comma-separated): ").split(',')))
+list2 = list(map(int, input("Enter second list of integers (comma-separated): ").split(',')))
+same_length = len(list1) == len(list2)
+same_sum = sum(list1) == sum(list2)
+common_values = any(value in list1 for value in list2)
+print(same_length, same_sum, common_values)

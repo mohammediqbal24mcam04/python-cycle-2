@@ -1,0 +1,5 @@
+n = input("Enter an integer: ")
+n1 = int(n)
+result = n1 + int(n*2) + int(n*3)
+print(n1 ,"+" ,int(n*2), "+" ,int(n*3) )
+print(result)
